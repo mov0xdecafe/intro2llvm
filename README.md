@@ -5,5 +5,5 @@ Introduction to LLVM for System and Software Security Research
 
 ```sh
 # recursive to clone the submodule
-git clone https://www.github.com --recursive
+git clone https://github.com/mov0xdecafe/intro2llvm --recursive
 ```
