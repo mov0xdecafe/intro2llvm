@@ -2,5 +2,6 @@
 cd /intro2llvm/llvm-tutor
 mkdir build
 cd build
-cmake -DLT_LLVM_INSTALL_DIR=$LLVM_DIR ../HelloWorld/
+# build all the examples
+cmake -DLT_LLVM_INSTALL_DIR=$LLVM_DIR ../
 make

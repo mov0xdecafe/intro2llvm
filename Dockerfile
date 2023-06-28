@@ -9,7 +9,9 @@ RUN apt install -y  build-essential \
                     autoconf \
                     automake \
                     cmake \
+                    curl \
                     gnupg \
+                    libcurl4-openssl-dev \
                     libxml2-dev \
                     lsb-release \
                     make \
@@ -17,7 +19,8 @@ RUN apt install -y  build-essential \
                     ncurses-dev \
                     python3 \
                     software-properties-common \
-                    wget
+                    wget \
+                    zlib1g-dev
 
 RUN wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | apt-key add -
 RUN apt-add-repository "deb http://apt.llvm.org/jammy/ llvm-toolchain-jammy-16 main"
